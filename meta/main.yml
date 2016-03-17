@@ -32,4 +32,4 @@ galaxy_info:
   - system
   #- web
 dependencies:
-  - { role: andrewrothstein.mesosphere-mesos, sudo_user: root }
+  - { role: vicenteg.mesosphere-mesos, sudo_user: root }
