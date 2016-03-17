@@ -6,7 +6,7 @@ galaxy_info:
    - Apache
   license: license (GPLv2, CC-BY, etc)
   min_ansible_version: 1.2
-  #platforms:
+  platforms:
   - name: EL
     versions:
   #  - all
