@@ -14,14 +14,14 @@ Role Variables
 Dependencies
 ------------
 
-vicenteg.mesosphere
+None
 
 Example Playbook
 ----------------
 
     - hosts: mesos_master,mesos_slave
       roles:
-         - { role: vicenteg.mesosphere }
+         - { role: vicenteg.mapr_mesos }
 
 License
 -------
