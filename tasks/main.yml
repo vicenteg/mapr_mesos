@@ -2,7 +2,8 @@
 # tasks file for mapr-mesos
 
 - name: install mapr-mesos
-  sudo_user: root
+  become: yes
+  become_user: root
   yum: name=mapr-mesos state=present
   environment: proxy_env
 
