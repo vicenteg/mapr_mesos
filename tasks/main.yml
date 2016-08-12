@@ -5,5 +5,5 @@
   become: yes
   become_user: root
   yum: name=mapr-mesos state=present
-  environment: proxy_env
+  environment: '{{proxy_env}}'
 
